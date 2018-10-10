@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="Neon Admin Panel" />
 	<meta name="author" content="" />
-	<title><?php echo $pag; ?> | AHP SEKOLAH</title>
+	<title><?php echo $pag; ?></title>
 
 	<link rel="stylesheet" href="<?= base_url() ?>assets/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css">
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/font-icons/entypo/css/entypo.css">
@@ -23,10 +23,10 @@
 	<script src="<?= base_url() ?>assets/js/jquery-1.11.0.min.js"></script>
 	<script src="<?=base_url();?>assets/libs/select2/select2.min.js"></script>
 
-	
-	
-	
-	
+
+
+
+
 
 
 	<!--[if lt IE 9]><script src="<?= base_url() ?>assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
