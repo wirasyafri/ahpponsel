@@ -1,5 +1,5 @@
 
-        <h2 style="margin-top:0px">Sekolah List</h2>
+        <h2 style="margin-top:0px">Ponsel List</h2>
         <div class="row" style="margin-bottom: 10px">
             <div class="col-md-4">
                 <?php echo anchor(site_url('sekolah/create'),'Create', 'class="btn btn-primary"'); ?>
@@ -16,7 +16,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" name="q" value="<?php echo $q; ?>">
                         <span class="input-group-btn">
-                            <?php 
+                            <?php
                                 if ($q <> '')
                                 {
                                     ?>
@@ -33,8 +33,8 @@
         <table class="table table-bordered" style="margin-bottom: 10px">
             <tr>
                 <th>No</th>
-        		<th>Nama Sekolah</th>
-        		<th>Alamat Sekolah</th>
+        		<th>Nama Ponsel</th>
+        		<th>Alamat Toko</th>
         		<th>Action</th>
                     </tr><?php
                     foreach ($sekolah_data as $sekolah)
@@ -45,12 +45,12 @@
     			<td><?php echo $sekolah->nama_sekolah ?></td>
     			<td><?php echo $sekolah->alamat_sekolah ?></td>
     			<td style="text-align:center" width="200px">
-    				<?php 
-    				echo anchor(site_url('sekolah/read/'.$sekolah->id_sekolah),'Read', array('class'=>'btn btn-primary btn-sm')); 
-    				echo ' | '; 
-    				echo anchor(site_url('sekolah/update/'.$sekolah->id_sekolah),'Update', array('class'=>'btn btn-default btn-sm')); 
-    				echo ' | '; 
-    				echo anchor(site_url('sekolah/delete/'.$sekolah->id_sekolah),'Delete','onclick="javasciprt: return confirm(\'Are You Sure ?\')"'); 
+    				<?php
+    				echo anchor(site_url('sekolah/read/'.$sekolah->id_sekolah),'Read', array('class'=>'btn btn-primary btn-sm'));
+    				echo ' | ';
+    				echo anchor(site_url('sekolah/update/'.$sekolah->id_sekolah),'Update', array('class'=>'btn btn-default btn-sm'));
+    				echo ' | ';
+    				echo anchor(site_url('sekolah/delete/'.$sekolah->id_sekolah),'Delete','onclick="javasciprt: return confirm(\'Are You Sure ?\')"');
     				?>
     			</td>
 		  </tr>

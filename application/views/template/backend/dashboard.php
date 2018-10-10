@@ -1,5 +1,5 @@
 <?php $this->load->view('template/backend/partials/header'); ?>
-<body class="page-body page-fade-only skin-blue" data-url="http://neon.dev">
+<body class="page-body page-fade-only skin-blue" data-url="#">
 
     <div class="page-container">
         <!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->

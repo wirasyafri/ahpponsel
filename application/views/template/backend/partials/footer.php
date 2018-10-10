@@ -1,11 +1,11 @@
 
 <!-- Footer -->
 <footer class="main">
-	
-		
-	&copy; 2017 <strong>SPK</strong> Penentuan Ranking Sekolah Unggulan
-	
-</footer>	
+
+
+	&copy; 2018 <strong>AHP</strong> Penentuan Ponsel Terbaeq
+
+</footer>
 </div>
 	<link rel="stylesheet" href="<?= base_url() ?>assets/js/jvectormap/jquery-jvectormap-1.2.2.css">
 	<link rel="stylesheet" href="<?= base_url() ?>assets/js/rickshaw/rickshaw.min.css">
@@ -14,7 +14,7 @@
 	<script src="<?= base_url() ?>assets/js/jquery-1.11.0.min.js"></script>
 	<script src="<?= base_url() ?>assets/js/gsap/main-gsap.js"></script>
 	<script src="<?= base_url() ?>assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js"></script>
-	
+
 	<script src="<?= base_url() ?>assets/js/bootstrap.js"></script>
 	<script src="<?= base_url() ?>assets/js/joinable.js"></script>
 	<script src="<?= base_url() ?>assets/js/resizeable.js"></script>
@@ -37,15 +37,15 @@
 <div class="modal fade" id="confirm-delete">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			
+
 			<div class="modal-header">
 				<h4 class="modal-title">Konfirmasi!</h4>
 			</div>
-			
+
 			<div class="modal-body">
 				Yakin ingin menghapus data ini ?
 			</div>
-			
+
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
 				<a class="btn btn-danger btn-ok">Hapus saja</a>
